@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>API Projects</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header role="banner">
+    </header>
+    <main role="main">
+      <form action="#" name="HeathCareSearch" method="get" id="HealthCareSearch" role="search">
+        <fieldset>
+          <legend>State Health Care Search</legend>
+          <label for="number">Enter year</label>
+          <input type="number" name="number" id="number" placeholder=" 2012">
+          <input type="submit" value="Submit">
+        </fieldset>
+      </form>
+      <div id="map">
+      </div>
+      <section role="region" id="results" aria-live="assertive">
+      </section>
+    </main>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script src="js/us-map/lib/raphael.js"></script>
+  <script src="js/us-map/jquery.usmap.js"></script>
+  <script src="js/index.js"></script>
+  </body>
+</html>
